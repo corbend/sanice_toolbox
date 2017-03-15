@@ -1,0 +1,6 @@
+#!/home/alexn/python/sanic/env/bin/python3
+
+import piptree
+import sys
+requirementsfile = sys.argv[1]
+piptree.show(requirementsfile)
